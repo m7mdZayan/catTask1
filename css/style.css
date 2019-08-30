@@ -1,0 +1,475 @@
+/* Global Properites*/
+html{
+    scroll-behavior: smooth;
+}
+body{font-family: 'Cairo', sans-serif;}
+
+/*** start of Header ***/
+header{
+        background-image: url(../images/scope-web-page.png);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        color: #fff;
+    padding-top: 10px;
+    }
+.contentWrapper{
+        width:75%;
+        margin: 0 auto;
+    }
+
+header ul{
+        list-style: none;
+}
+    
+header a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    header ul li:hover{
+        border-bottom: 2px solid #fff;
+    }    
+
+.headerText{
+        text-align: center;
+        margin-top: 10em;
+    }
+header span{
+        color:#000;
+    }
+.headerText p{
+    text-transform: capitalize;
+    font-size: 1.1em;
+}
+/***** end of header ******/
+
+/***********start of about section *************/
+
+#aboutScope{
+    text-align: center;
+    width: 65%;
+    margin: -25px auto 0;
+    font-size: 1.3em;
+    box-shadow: 1px 2px 20px 1px  #c3c3c3;
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#aboutScope h2{
+    display: inline-block;
+    margin-left: 5px;
+    color: #f00;
+    margin-top: 0;
+}
+#aboutScope h2 span{
+    color:#000;
+}
+#aboutScope p{
+    width:75%;
+    margin: 10px auto 25px;
+}
+#aboutScope p span{
+    color:#f00;
+    
+}
+#aboutScope strong{
+    color:#f00;
+}
+#aboutScope button{
+    background-color: #f00;
+    color:#fff;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: .83em;
+}
+#aboutScope button img{
+    margin-right:5px;
+}
+#aboutScope button:hover{
+    width:10em;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+
+
+/**********end of about section **************/
+
+/***********start of speakers section *************/
+
+#scopeSpeaker{
+    width:70%;
+    margin: 20px auto;
+    text-align: center;
+}
+#scopeSpeaker h2{
+    display: inline-block;
+    color:#f00;
+    margin-left: 5px;
+}
+
+
+.speaker{
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+.speaker:hover{
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+/***********end of speakers section *************/
+
+/***********start of Schedule section *************/
+
+#scopeSchedule{
+    background-image: url("../images/CatBack.png");
+    background-size: cover;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.scheduleHeader{
+    text-align: center;
+    color:#fff;
+    
+}
+.scheduleHeader h2{
+    display: inline-block;
+    margin-left: 5px;
+}
+.day1,.day2{
+    display: inline-block;
+    width:8em;
+    font-size: 1.2em;
+    padding: 2px;
+}
+.day1{
+    background-color: #f00;
+    border-radius: 20px 0 0 20px;
+}
+.day2{
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+    color: #f00;
+}
+.session p{
+    color:#F00;
+}
+
+/***********end of Schedule section *************/
+
+/***********stat of Roll-in section *************/
+
+#rollIn{
+    text-align: center;
+    padding: 30px 0;
+}
+#rollIn h2{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top:0;
+}
+.register-btn{
+    background-color: #f00;
+    color:#fff;
+    border-radius: 20px;
+    width:10em;
+    height: 2em;
+    margin-right: 110px;
+    border: none;
+}
+.support-btn{
+    background-color: #000;
+    color:#fff;
+    border-radius: 20px;
+    width:10em;
+    height: 2em;
+    border: none;
+    
+}
+.register-btn:hover,.support-btn:hover{
+    border-radius: 0;
+    cursor: pointer
+}
+
+
+
+/***********end of Roll-in section *************/
+
+/***********start of Location section *************/
+
+#location{
+    background-color: #000;
+    text-align: center;
+    padding: 30px 0;
+}
+#location h2{
+    display: inline-block;
+    color:#fff;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+
+
+
+/***********end of Location section *************/
+
+/************** start of the footer ************/
+
+footer {
+    background-color: #f00;
+    text-align: center;
+    padding: 65px 0;
+    
+}
+footer p{
+    color:#fff;
+    font-size: 1.3em;
+    margin-top: 0;
+}
+footer strong{
+    color:#000;
+    text-transform: uppercase;
+}
+footer button{
+    background-color: #000;
+    color:#fff;
+    border-radius: 20px;
+    width:13em;
+    height:2em;
+    display: block;
+    margin: 35px auto;
+}
+footer button:hover{
+    cursor: pointer;
+    width: 14em;
+}
+footer button img{
+    margin-right: 10px;
+}
+.socialLogo{
+    margin-right: 10px;
+}
+.socialLogo:hover{
+    width:28px;
+    height:28px;
+    cursor: pointer;
+}
+.copyRight{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+}
+/********** end of the footer *************/
+
+
+
+/*********************************************     PCs                ******************************************/
+@media  (min-width:992px){
+    
+        /*** start of Header ***/  
+     header ul{
+        float: right;
+    }
+    header ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }    
+    
+        /***** end of header ******/
+    
+
+    /***********start of Schedule section *************/
+.vLine{
+    width:2px;
+    height:85%;
+    position: absolute;
+    left: calc(50% - 1px);
+    background-color: #f00;
+}
+.sessionsWrapper{
+        width:65%;
+        margin: 10px auto;
+    }
+.sessionDescription{
+    width:40%;
+    height:auto;
+    min-height: 7em;
+    background-color: #fff;
+    padding:1px 0 0 20px;
+    display: inline-block;
+    }
+    .sessionRight{
+        float: right;
+        margin-right: 20px;
+    }
+    .session{
+        position: relative;
+        margin: 30px 0;
+        overflow: hidden;
+    }
+    .session img{
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        left:calc(50% - 17.5px);
+        top:20%;
+}
+    .timeRight{
+        color: #f00;
+        position: absolute;
+        left: 55%;
+        top:22%;
+    }
+    span.timeLeft{
+        color: #f00;
+        position: absolute;
+        left: 40%;
+        top:22%;
+    }  
+
+    /***********end of Schedule section *************/
+    
+    
+}
+/*************************    Tablets                            ******************************************/
+@media ( min-width :768px ) and (max-width: 991px){
+        /*** start of Header ***/ 
+     header ul{
+        float: right;
+    }
+    header ul li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+        /***** end of header ******/
+    
+        /***********start of Schedule section *************/
+.vLine{
+    width:2px;
+    height:85%;
+    position: absolute;
+    left: calc(50% - 1px);
+    background-color: #f00;
+}
+.sessionsWrapper{
+        width:65%;
+        margin: 10px auto;
+    }
+.sessionDescription{
+    width:40%;
+    height:auto;
+    min-height: 7em;
+    background-color: #fff;
+    padding:1px 0 0 20px;
+    display: inline-block;
+    }
+    .sessionRight{
+        float: right;
+    }
+    .session{
+        position: relative;
+        margin: 30px 0;
+        overflow: hidden;
+    }
+    .session img{
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        left:calc(50% - 17.5px);
+        top:20%;
+}
+    .timeRight{
+        color: #f00;
+        position: absolute;
+        left: 55%;
+        top:22%;
+    }
+    span.timeLeft{
+        color: #f00;
+        position: absolute;
+        left: 40%;
+        top:22%;
+    }  
+
+    
+    
+    /***********end of Schedule section *************/
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/**************     Mobiles                               ****************************************/
+@media (max-width : 767px){
+    /*** start of Header ***/ 
+    header{
+        text-align: center;
+    }
+    header ul li {
+        display: inline-block;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    /***** end of header ******/
+    /***********stat of Roll-in section *************/
+.register-btn,.support-btn{
+    display: block;
+    margin: 10px auto;
+}
+
+
+/***********end of Roll-in section *************/
+/***********start of Location section *************/
+    iframe{
+        width:300px;
+    }
+    
+    
+/***********end of Location section *************/
+    
+/***********start of Schedule section *************/
+    
+    vLine,.session img{
+        display: none;
+    }  
+    .sessionDescription{
+    width:40%;
+    height:auto;
+    min-height: 7em;
+    background-color: #fff;
+    padding:1px 0 0 20px;
+    display: inline-block;
+    margin: 20px auto;
+    }
+    .session{
+        position: relative;
+    }
+    
+    .session span{
+        color:#f00;
+        position: absolute;
+        left:55%;
+        top:30%;
+    }
+    
+    
+/***********end of schedule section *************/
+    
+}
+
